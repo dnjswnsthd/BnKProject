@@ -2,16 +2,16 @@
   "dashboard": {
     "completedTasks": "Completed Tasks",
     "dailySales": "Daily Sales",
-    "performance": "Performance",
-    "simpleTable": "Simple Table",
-    "totalShipments": "Total Shipments",
+    "performance": "내 금융 현황",
+    "simpleTable": "입출금 내역",
+    "BnKService": "BNK Financial Group Inc",
     "chartCategories": [
-      "Accounts",
-      "Purchases",
-      "Sessions"
+      "계좌 잔액",
+      "수입 금액",
+      "지출 금액"
     ],
-    "tasks": "Tasks({count})",
-    "today": "Today",
+    "tasks": "최근 1주일 이용내역({count})",
+    "today": "Weekend",
     "dropdown": {
       "action": "Action",
       "anotherAction": "Another Action",
@@ -20,92 +20,114 @@
     "usersTable": {
       "title": "Simple Table",
       "columns": [
-        "Name",
-        "Country",
-        "City",
-        "Salary"
+        "place",
+        "category",
+        "amount"
       ],
       "data": [
         {
           "id": 1,
-          "name": "Dakota Rice",
-          "salary": "$36.738",
-          "country": "Niger",
-          "city": "Oud-Turnhout"
+          "place": "맥날",
+          "category": "출금",
+          "amount": "20,000원"
         },
         {
           "id": 2,
-          "name": "Minerva Hooper",
-          "salary": "$23,789",
-          "country": "Curaçao",
-          "city": "Sinaai-Waas"
+          "place": "급여",
+          "category": "입금",
+          "amount": "3,000,000원"
         },
         {
           "id": 3,
-          "name": "Sage Rodriguez",
-          "salary": "$56,142",
-          "country": "Netherlands",
-          "city": "Baileux"
+          "place": "맥날",
+          "category": "출금",
+          "amount": "20,000원"
         },
         {
           "id": 4,
-          "name": "Philip Chaney",
-          "salary": "$38,735",
-          "country": "Korea, South",
-          "city": "Overland Park"
+          "place": "맥날",
+          "category": "출금",
+          "amount": "20,000원"
         },
         {
           "id": 5,
-          "name": "Doris Greene",
-          "salary": "$63,542",
-          "country": "Malawi",
-          "city": "Feldkirchen in Kärnten"
+          "place": "맥날",
+          "category": "출금",
+          "amount": "20,000원"
         },
         {
           "id": 6,
-          "name": "Mason Porter",
-          "salary": "$98,615",
-          "country": "Chile",
-          "city": "Gloucester"
+          "place": "맥날",
+          "category": "출금",
+          "amount": "20,000원"
         },
         {
           "id": 7,
-          "name": "Jon Porter",
-          "salary": "$78,615",
-          "country": "Portugal",
-          "city": "Gloucester"
+          "place": "맥날",
+          "category": "출금",
+          "amount": "20,000원"
         }
       ]
     },
     "taskList": [
       {
-        "title": "Update the Documentation",
-        "description": "Dwuamish Head, Seattle, WA 8:47 AM",
+        "title": "카드 발급",
+        "description": "OO카드 발급 2022.08.02",
         "done": false
       },
       {
-        "title": "GDPR Compliance",
-        "description": "The GDPR is a regulation that requires businesses to protect the personal data and privacy of Europe citizens for transactions that occur within EU member states.",
-        "done": true
-      },
-      {
-        "title": "Solve the issues",
-        "description": "Fifty percent of all respondents said they would be more likely to shop at a company",
+        "title": "카드 체험",
+        "description": "OO카드 체험 사용 2022.08.01",
         "done": false
       },
       {
-        "title": "Release v2.0.0",
-        "description": "Ra Ave SW, Seattle, WA 98116, SUA 11:19 AM",
+        "title": "카드 분실 신고",
+        "description": "OO카드 분실 신고 2022.07.31",
         "done": false
       },
       {
-        "title": "Export the processed files",
-        "description": "The report also shows that consumers will not easily forgive a company once a breach exposing their personal data occurs.",
+        "title": "카드 발급",
+        "description": "OO카드 발급 2022.08.02",
         "done": false
       },
       {
-        "title": "Arival at export process",
-        "description": "Capitol Hill, Seattle, WA 12:34 AM",
+        "title": "카드 체험",
+        "description": "OO카드 체험 사용 2022.08.01",
+        "done": false
+      },
+      {
+        "title": "카드 분실 신고",
+        "description": "OO카드 분실 신고 2022.07.31",
+        "done": false
+      },
+      {
+        "title": "카드 발급",
+        "description": "OO카드 발급 2022.08.02",
+        "done": false
+      },
+      {
+        "title": "카드 체험",
+        "description": "OO카드 체험 사용 2022.08.01",
+        "done": false
+      },
+      {
+        "title": "카드 분실 신고",
+        "description": "OO카드 분실 신고 2022.07.31",
+        "done": false
+      },
+      {
+        "title": "카드 발급",
+        "description": "OO카드 발급 2022.08.02",
+        "done": false
+      },
+      {
+        "title": "카드 체험",
+        "description": "OO카드 체험 사용 2022.08.01",
+        "done": false
+      },
+      {
+        "title": "카드 분실 신고",
+        "description": "OO카드 분실 신고 2022.07.31",
         "done": false
       }
     ]
@@ -114,7 +136,7 @@
     "title": "Creative Tim",
     "shortTitle": "CT",
     "dashboard": "dashboard",
-    "icons": "Icons",
+    "bnkservice": "BnKService",
     "maps": "Maps",
     "notifications": "Notifications",
     "userProfile": "User Profile",

@@ -9,7 +9,7 @@
         />
         <sidebar-link
           to="/bnkservice"
-          :name="$t('bnkservice')"
+          :name="$t('sidebar.bnkservice')"
           icon="tim-icons icon-atom"
         />
         <sidebar-link

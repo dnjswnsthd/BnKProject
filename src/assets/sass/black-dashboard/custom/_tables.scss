@@ -157,11 +157,11 @@
 
 .table-responsive{
   overflow: scroll;
-  padding-bottom: 10px;
+  min-height: 54vh;
 }
 
 #tables .table-responsive{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 table.tablesorter thead tr .header{
