@@ -10,7 +10,7 @@
       </td>
       <td class="td-actions text-right">
         <base-button type="link" aria-label="edit button">
-          <i class="tim-icons icon-pencil"></i>
+          <i class="tim-icons icon-trash-simple"></i>
         </base-button>
       </td>
     </template>
