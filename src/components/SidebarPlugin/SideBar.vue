@@ -80,10 +80,6 @@ export default {
     SidebarLink,
   },
   computed: {
-    /**
-     * Styles to animate the arrow near the current active sidebar link
-     * @returns {{transform: string}}
-     */
     arrowMovePx() {
       return this.linkHeight * this.activeLinkIndex;
     },

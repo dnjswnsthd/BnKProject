@@ -9,7 +9,7 @@
         />
         <sidebar-link
           to="/bnkservice"
-          :name="$t('sidebar.bnkservice')"
+          :name="$t('bnkservice')"
           icon="tim-icons icon-atom"
         />
         <sidebar-link
@@ -36,11 +36,6 @@
           to="/typography"
           :name="$t('sidebar.typography')"
           icon="tim-icons icon-align-center"
-        />
-        <sidebar-link
-          to="/dashboard?enableRTL=true"
-          :name="$t('sidebar.rtlSupport')"
-          icon="tim-icons icon-world"
         />
       </template>
     </side-bar>
