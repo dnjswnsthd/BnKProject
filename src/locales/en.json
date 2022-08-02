@@ -20,14 +20,14 @@
     "usersTable": {
       "title": "Simple Table",
       "columns": [
-        "Where To Use",
-        "Withdraw/Deposit",
-        "Amount"
+        "사용처",
+        "입금/출금",
+        "금액"
       ],
       "data": [
         {
           "id": 1,
-          "place": "맥날",
+          "place": "맥도날드 NicePayments",
           "category": "출금",
           "amount": "20,000원"
         },
@@ -39,31 +39,31 @@
         },
         {
           "id": 3,
-          "place": "맥날",
+          "place": "올리브영(기장 일광점)",
           "category": "출금",
           "amount": "20,000원"
         },
         {
           "id": 4,
-          "place": "맥날",
+          "place": "맥도날드 NicePayments",
           "category": "출금",
           "amount": "20,000원"
         },
         {
           "id": 5,
-          "place": "맥날",
+          "place": "올리브영(기장 일광점)",
           "category": "출금",
           "amount": "20,000원"
         },
         {
           "id": 6,
-          "place": "맥날",
+          "place": "올리브영(기장 일광점)",
           "category": "출금",
           "amount": "20,000원"
         },
         {
           "id": 7,
-          "place": "맥날",
+          "place": "올리브영(기장 일광점)",
           "category": "출금",
           "amount": "20,000원"
         }
