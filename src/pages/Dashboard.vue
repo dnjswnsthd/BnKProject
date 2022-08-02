@@ -353,5 +353,23 @@ export default {
   },
 };
 </script>
-<style>
+<style type="text/css">
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background: rgba(0, 176, 128);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: white;
+}
 </style>
