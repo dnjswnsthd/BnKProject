@@ -4,6 +4,11 @@
     :columns="table.columns"
     thead-classes="text-primary"
   >
+    <template slot-scope="{ row }">
+      <td>{{ row.place }}</td>
+      <td style="text-align: center">{{ row.category }}</td>
+      <td>{{ row.amount }}</td>
+    </template>
   </base-table>
 </template>
 <script>
