@@ -154,6 +154,7 @@
           <h4 slot="header" class="card-title">
             {{ $t("dashboard.simpleTable") }}
           </h4>
+          <hr color="gray" style="margin-top: 0.1rem; margin-bottom: 0rem" />
           <div class="table-responsive">
             <user-table></user-table>
           </div>

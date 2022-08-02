@@ -20,9 +20,9 @@
     "usersTable": {
       "title": "Simple Table",
       "columns": [
-        "place",
-        "category",
-        "amount"
+        "Where To Use",
+        "Withdraw/Deposit",
+        "Amount"
       ],
       "data": [
         {
